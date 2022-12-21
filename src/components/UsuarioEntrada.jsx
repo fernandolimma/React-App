@@ -3,7 +3,7 @@ import { UsuarioSaida } from "./UsuarioSaida"
 import "./style.css"
 
 export function UsuarioEntrada() {
-    const [nome, setNome] = useState()
+    const [nome, setNome] = useState("")
 
     return (
         <div className="container">
